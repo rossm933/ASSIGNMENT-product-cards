@@ -1,3 +1,26 @@
-body {
-  background-color: yellow;
+.card-title {
+  border: 1px solid lightblue;
+}
+
+.card-text {
+  text-align: justify;
+  padding: 10px;
+}
+
+.list-group {
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.availability {
+  background-color: darkgray;
+  text-align: left;
+  color: yellow;
+}
+
+.card-body{
+  padding: 0px;
 }
