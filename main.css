@@ -1,3 +1,8 @@
+body {
+  background: linear-gradient(darkslateblue, gray);
+  font-family: 'Salsa', cursive;
+
+}
 .card-title {
   border: 1px solid lightblue;
 }
@@ -23,4 +28,27 @@
 
 .card-body{
   padding: 0px;
+}
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.card-img-top {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.img2 {
+  position: absolute;
+  top: 30px;
+  left: 1px;
+  width: 110%;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
